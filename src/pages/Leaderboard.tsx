@@ -6,10 +6,10 @@ import MainHeading from '../components/MainHeading'; // Assuming MainHeading.tsx
 const Leaderboard: React.FC = () => {
     // Dummy data for demonstration
     const leaderboardData = [
-        { rank: 1, name: 'John Doe', branch: 'Computer Science', rating: 98 },
-        { rank: 2, name: 'Jane Smith', branch: 'Electrical Engineering', rating: 96 },
-        { rank: 3, name: 'Michael Johnson', branch: 'Mechanical Engineering', rating: 92 },
-        { rank: 4, name: 'Sarah Brown', branch: 'Chemistry', rating: 91 },
+        { rank: 1, name: 'Manzoor Mohd', branch: 'AIML', rating: 98 },
+        { rank: 2, name: 'Mogal Vasim Baig', branch: 'AIML', rating: 96 },
+        { rank: 3, name: 'Abdul Faheem', branch: 'AIML', rating: 92 },
+        { rank: 4, name: 'Syed Abdul Kareem Ahmed', branch: 'AIML', rating: 91 },
         { rank: 5, name: 'Alice Green', branch: 'Physics', rating: 90 },
         { rank: 6, name: 'Robert Lee', branch: 'Biology', rating: 90 },
         { rank: 7, name: 'Emily Wang', branch: 'Mathematics', rating: 84 },

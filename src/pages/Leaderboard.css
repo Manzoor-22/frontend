@@ -1,0 +1,28 @@
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust height to 100vh for full viewport height */
+}
+
+.leaderboard-table {
+    width: 90%; /* Increase width to 90% */
+    max-width: 1200px; /* Set a max-width for responsiveness */
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for visual effect */
+}
+
+.leaderboard-table .table th {
+    background-color: #3498db; /* Background color for header */
+    color: black; /* Text color for header */
+    font-weight: bold; /* Make font bold */
+}
+
+.leaderboard-table th, .leaderboard-table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increase padding for better readability */
+    text-align: center;
+}
+
+
